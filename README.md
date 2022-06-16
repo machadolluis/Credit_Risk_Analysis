@@ -9,37 +9,37 @@ After evaluating each model, we will make a recommendation on which should be us
 ## Results
 
 ### RandomOverSampler
-![](/images/ros_class_report)
+![](/images/ros_class_report.png)
 Balanced accuracy score = 61.2%;
 The high_risk precision is only 1%, with a sensitivity of 71%;
 Because of the large number of low_risk variables, its precision is almost 100% with a sensitivity of 61%
 
 ### SMOTE
-![](/images/SMOTE_class_report)
+![](/images/SMOTE_class_report.png)
 Balanced accuracy score = 65.4%
 The high_risk precision is only 1%, with a sensitivity of 63%;
 Because of the large number of low_risk variables, its precision is almost 100% with a sensitivity of 68%
 
 ### ClusterCentroids
-![](/images/cc_class_report)
+![](/images/cc_class_report.png)
 Balanced accuracy score = 54.4%
 The high_risk precision is only 1%, with a sensitivity of 69%;
 Because of the large number of low_risk variables, its precision is almost 100% with a sensitivity of 40%
 
 ### SMOTEENN
-![](/images/rSMOTEENN_class_report)
+![](/images/rSMOTEENN_class_report.png)
 Balanced accuracy score = 64.2%
 The high_risk precision is only 1%, with a sensitivity of 71%;
 Because of the large number of low_risk variables, its precision is almost 100% with a sensitivity of 57%
 
 ### BalancedRandomForestClassifier
-![](/images/brfc_class_report)
+![](/images/brfc_class_report.png)
 Balanced accuracy score = 77.6%
 The high_risk precision is only 3%, with a sensitivity of 67%;
 Because of the large number of low_risk variables, its precision is almost 100% with a sensitivity of 88%
 
 ### EasyEnsembleClassifier
-![](/images/eec_class_report)
+![](/images/eec_class_report.png)
 Balanced accuracy score = 93.2%
 The high_risk precision is 9%, with a sensitivity of 92%;
 Because of the large number of low_risk variables, its precision is almost 100% with a sensitivity of 94%
