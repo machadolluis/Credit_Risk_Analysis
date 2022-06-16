@@ -33,7 +33,7 @@ The high_risk precision is only 1%, with a sensitivity of 69%
 Because of the large number of low_risk variables, its precision is almost 100% with a sensitivity of 40%
 
 ### SMOTEENN
-![](/images/rSMOTEENN_class_report.png)
+![](/images/SMOTEENN_class_report.png)
 Balanced accuracy score = 64.2%
 
 The high_risk precision is only 1%, with a sensitivity of 71%
